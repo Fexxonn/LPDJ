@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: black;
+  }
+  /* Tag */
+  .container-tag {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1pc;
+  }
+  .tag {
+    width: 18pc;
+    height: 18pc;
+    background: white;
+    border-radius: 1pc;
+    overflow: hidden;
+    position: relative;
+  }
+  .tagImg {
+    background-color: red;
+    width: 18pc;
+    height: 6pc;
+  }
+  .tagLog {
+      width: 7pc;
+      height: 7pc;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 3pc;
+      left: 10pc;
+  }
+  .tagFooter {
+    border-top: 2px solid rgb(60, 60, 60, 0.3);
+    top: 15pc;
+    width: 18pc;
+    position: absolute;
+  }
+  .tagFooter span:nth-child(1){
+  position: absolute;
+      left: 15pc;
+      top: 0.7pc;
+      color: rgb(66, 66, 66);
+      font-size: 1.6pc;
+  }
+  .tagFooter span:nth-child(2){
+  position: absolute;
+      left: 12.4pc;
+      top: 0.7pc;
+      color: rgb(66, 66, 66);
+      font-size: 1.6pc;
+  }
+  /* FinTag */
+  
